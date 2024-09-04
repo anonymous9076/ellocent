@@ -1,0 +1,186 @@
+.about {
+  min-height: 90dvh;
+  width: 100%;
+  height:fit-content;
+  background: url("../../public/Images/Vector.png");
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutsec1 {
+  width: 55%;
+  height: 100% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.sitename {
+  height: fit-content;
+  width: 100%;
+}
+.sitename > span {
+  color: #39d5ff;
+}
+.text-line {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-weight: 500;
+  font-size: clamp(14px, 3vw,20px);
+  letter-spacing: 1px;
+}
+
+.about-slogan {
+  margin: 0;
+  width: 90%;
+  height: fit-content;
+  color: rgba(0, 0, 0, 0.747);
+  margin: 10px 0 25px 0;
+  font-size: clamp(10px, 2vw, 15px);
+
+}
+
+.homepage-btns {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #39d5ff;
+  border-radius: 10px;
+  border: none;
+}
+
+.contact {
+  height: 100%;
+  width: 45%;
+  display: grid;
+  place-items: center;
+}
+.contactsec1 {
+  min-height: 420px;
+  height: fit-content;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #39d5ff;
+  padding: 15px;
+  box-shadow: 0px 0px 10px 1px rgb(223, 223, 223);
+}
+.inputsec {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.inputsec > input {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  background-color: rgb(248, 248, 248);
+  border: none;
+  text-align: left;
+  vertical-align: top;
+}
+.inputsec > input:focus {
+  outline: none;
+  border: 1px solid #39d5ff;
+}
+
+.inputsec > button {
+  width: 100%;
+  background-color: #39d5ff;
+  color: white;
+  height: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.phonesec {
+  display: flex;
+}
+.phonesec > div > select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.719);
+  padding-left: 15px;
+  background-color: rgb(248, 248, 248);
+}
+.message {
+  height: 90px;
+}
+.message > textarea {
+  height: 100%;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: #4b4b4b;
+
+  background-color: rgb(248, 248, 248);
+}
+.custom-select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  border-right: 1px solid rgba(116, 116, 116, 0.322);
+}
+
+.custom-select-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-select-wrapper::after {
+  content: "\25BC";
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 12px;
+  color: #33333398;
+}
+
+.custom-select-wrapper select:focus {
+  outline: none;
+  border-color: #666;
+}
+#services {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  border: none;
+  font-size: 14px;
+  padding-left: 12px;
+  color: #747373;
+}
+
+@media screen and (max-width:950px) {
+   .about{
+      flex-direction: column;
+      height: fit-content;
+   }
+   .aboutsec1{
+    width: 100%;
+    margin: 2rem 0;
+   }
+   .contact{
+    width: 100%;
+   }
+}

@@ -1,0 +1,104 @@
+.section2 {
+  width: 100%;
+  height: 90dvh;
+  min-height:fit-content;
+
+  background-color: #fafdff;
+  display: flex;
+}
+
+.overview-img {
+  height: 100%;
+  width: 45%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center end;
+  position: relative;
+  background-color: red;
+}
+
+.overview-sec2 {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+}
+
+.overview-sec1 {
+  width: 45%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+.overview-bg-img {
+  background: url("../../public/Images/Vector\(1\).png");
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+.collage {
+  height: 80%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+.col1 {
+  width: 50%;
+  height: 100%;
+  padding: 1%;
+}
+.col1 > div {
+  width: 100%;
+  height: 20%;
+}
+.img1 {
+  width: 100%;
+  height: 80%;
+}
+.col2 {
+  width: 50%;
+  height: 100%;
+  padding: 1%;
+}
+.img2 {
+  width: 80%;
+  height: 35%;
+}
+.img3 {
+  width: 80%;
+  height: 65%;
+}
+
+.overview-btns {
+  width: 220px;
+  min-width: fit-content;
+  height: 50px;
+  color: white;
+  background-color: #39d5ff;
+  border-radius: 10px;
+  border: none;
+  text-wrap: nowrap;
+}
+
+@media screen and (max-width:800px) {
+    .section2{
+      flex-direction: column;
+      padding:0 2rem ;
+      height: fit-content;
+    }
+    .overview-sec1{
+      width: 100%;
+      height: fit-content;
+    }
+
+    .overview-sec2{
+      width: 100%;
+      margin:2rem 0;
+    }
+}
