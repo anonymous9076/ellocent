@@ -2,7 +2,6 @@
     height: 100dvh;
     width: 100%;
     min-height:fit-content;
-
     background: #ffffff;
     position: relative;
     overflow: hidden;
@@ -14,44 +13,8 @@
     box-sizing: border-box;
   }
   
-  .benifit-img {
-    height: 100%;
-    width: 45%;
-    display: -ms-grid;
-    display: grid;
-    place-items: center end;
-    position: relative;
-  }
-  
-  #tags {
-    position: absolute;
-    left: 12%;
-    top: 14%;
-    width: 450px;
-    height: 20rem;
-    z-index: 1;
-  }
-  .benifit-img::before {
-    content: "";
-    height: 2px;
-    width: 2px;
-    border-radius: 50%;
-    position: absolute;
-    top: 35%;
-    left: 35%;
-    box-shadow: 0px 0px 200px 70px #39d5ff;
-  }
-  
-  
-  .benifit-img > img {
-    height: 90%;
-    width: 80%;
-    position: relative;
-    z-index: 3;
-  }
-  
   .benifit-sec1 {
-    width: 55%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -114,7 +77,7 @@
   #lines{
     width:25px;
     z-index: 1;
-    right: 47%;
+    right: 43%;
     height:100%;
     position: absolute;
 

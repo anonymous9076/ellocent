@@ -78,8 +78,7 @@ function Benifits2() {
           </ul>
         </div>
         <div className="benifit-img">
-          <img src="/Images/Image (32) 2.png" alt="..."></img>
-          <img id="tags" src="/Images/Group 1000010976.png" alt="..."></img>
+          <img src="/Images/Group 1000012611.png" alt="..."></img>
         </div>
       </div>
     </>
